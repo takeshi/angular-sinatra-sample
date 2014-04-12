@@ -1,0 +1,6 @@
+{
+	"baseName": "first",
+	"orm": "dm",
+	"entities": [],
+	"resources": []
+}
