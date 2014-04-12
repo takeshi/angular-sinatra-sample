@@ -2,10 +2,11 @@
 class First < Sinatra::Application
   get '/first' do 
     # send_file File.join('public', 'index.html')
-    erb :test
+    erb :first
   end
 
   get '/first/home' do
-  	erb :home
+  	erb :"first/home"
   end
+
 end
